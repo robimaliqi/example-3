@@ -14,6 +14,6 @@ describe('MessageView', () => {
     const buttonEl = document.querySelector('#show-message-button');
     buttonEl.click();
 
-    expect(document.querySelector('#message')).not.toBeNull();
+    expect(document.querySelector("#message")).not.toBeNull();
   });
 });
